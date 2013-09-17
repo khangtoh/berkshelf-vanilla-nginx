@@ -1,0 +1,11 @@
+server {
+  listen   80;
+  server_name  <%= node[:berkshelf_vanilla_nginx][:name] %>;
+ 
+  access_log  <%= node[:berkshelf_vanilla_nginx][:document_root] %>/access.log;
+ 
+  location / {
+    root   <%= node[:berkshelf_vanilla_nginx][:document_root] %>;
+    index  index.html index.htm;
+  }
+}
