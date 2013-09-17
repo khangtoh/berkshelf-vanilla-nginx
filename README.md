@@ -6,7 +6,7 @@ This berkshelf has is setupw for ubuntu-precise64 virtualbox with plain vanilla 
 
 Requirements
 ================================
-[https://www.virtualbox.org/](VirtualBox) and [http://www.vagrantup.com/](Vagrant)
+[VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://www.vagrantup.com/)
 
 Usage
 ================================
